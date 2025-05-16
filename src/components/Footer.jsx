@@ -6,7 +6,7 @@ import prak from '../assets/img/prak.jpg';
 import rakesh from '../assets/img/rakesh.jpg';
 import FatherSeb1 from '../assets/img/FatherSeb1.jpeg';
 const Footer = () => {
-  const images = [supriya1, MukeshSir, vandna, prak, rakesh, FatherSeb1];
+  const images = [{supriya1, MukeshSir, vandna, prak, rakesh, FatherSeb1}];
 
   return (
     <div className="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.1s">
