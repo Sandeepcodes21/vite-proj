@@ -2,7 +2,14 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-
+import college from '../assets/img/college.jpeg';
+import feast from '../assets/img/feast.jpg';
+import college2 from '../assets/img/college2.jpeg';
+import xest from '../assets/img/xest.jpg';
+import college3 from '../assets/img/college3.jpeg';
+import independence from '../assets/img/independence.jpg';
+import christmas from '../assets/img/christmas.webp';
+import image from '../assets/img/image.jpg';
 function Hero() {
   return (
     <div>
@@ -33,28 +40,28 @@ function Hero() {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src="src/assets/img/college.jpeg" className="d-block w-100" alt="Slide 1" />
+            <img src={college} className="d-block w-100" alt="Slide 1" />
           </div>
           <div className="carousel-item">
-            <img src="src/assets/img/feast.jpg" className="d-block w-100" alt="Slide 2" />
+            <img src={feast} className="d-block w-100" alt="Slide 2" />
           </div>
           <div className="carousel-item">
-            <img src="src/assets/img/college2.jpeg" className="d-block w-100" alt="Slide 3" />
+            <img src={college2} className="d-block w-100" alt="Slide 3" />
           </div>
           <div className="carousel-item">
-            <img src="src/assets/img/xest.jpg" className="d-block w-100" alt="Slide 4" />
+            <img src={xest} className="d-block w-100" alt="Slide 4" />
           </div>
           <div className="carousel-item">
-            <img src="src/assets/img/college3.jpeg" className="d-block w-100" alt="Slide 5" />
+            <img src={college3} className="d-block w-100" alt="Slide 5" />
           </div>
           <div className="carousel-item">
-            <img src="src/assets/img/independence.jpg" className="d-block w-100" alt="Slide 6" />
+            <img src={independence} className="d-block w-100" alt="Slide 6" />
           </div>
           <div className="carousel-item">
-            <img src="src/assets/img/christmas.webp" className="d-block w-100" alt="Slide 7" />
+            <img src={christmas} className="d-block w-100" alt="Slide 7" />
           </div>
           <div className="carousel-item">
-            <img src="src/assets/img/image.jpg" className="d-block w-100" alt="Slide 8" />
+            <img src={image} className="d-block w-100" alt="Slide 8" />
           </div>
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
