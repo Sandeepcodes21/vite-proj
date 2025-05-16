@@ -1,13 +1,18 @@
+import supriya1 from '../assets/img/supriya1.jpeg';
+import MukeshSir from '../assets/img/MukeshSir.jpg';
+import vandna from '../assets/img/vandna.jpg';
+import prak from '../assets/img/prak.jpg';
 import React from 'react';
-
+import rakesh from '../assets/img/rakesh.jpg';
+import FatherSeb1 from '../assets/img/FatherSeb1.jpg';
 const Footer = () => {
   const images = [
-    'src/assets/img/supriya1.jpeg',
-    'src/assets/img/MukeshSir.jpg', 
-    'src/assets/img/vandna.jpeg',
-    'src/assets/img/prak.jpg', 
-    'src/assets/img/rakesh.jpg', 
-    'src/assets/img/FatherSeb1.jpeg'
+    supriya1,
+    MukeshSir, 
+    vandna,
+    prak, 
+    rakesh, 
+    FatherSeb1
   ];
 
   return (
