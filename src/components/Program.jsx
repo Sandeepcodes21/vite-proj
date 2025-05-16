@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Hero from "./Hero";
-
+import image from '../assets/img/BCA.jpg';
 const ProgramCard = ({ image, title, description, sem1, sem2, sem3, sem4, sem5, sem6 }) => {
   return (
     <div className="col-md-6 col-lg-6 col-xl-4 wow fadeIn" data-wow-delay="0.1s">
@@ -75,21 +75,21 @@ const ProgramCard = ({ image, title, description, sem1, sem2, sem3, sem4, sem5, 
 const BcaDepartments = () => {
   const programs = [
     {
-      image: "src/assets/img/BCA.jpg",
+      image: {BCA},
       title: "BCA-I",
       description: "Every great developer was once a beginner. Code, learn, and grow every day.",
       sem1: "Semester 1",
       sem2: "Semester 2",
     },
     {
-      image: "src/assets/img/BCA.jpg",
+      image: {BCA},
       title: "BCA-II",
       description: "Debug your code, but never your dreams. Keep learning, the best is yet to come!",
       sem3: "Semester 3",
       sem4: "Semester 4",
     },
     {
-      image: "src/assets/img/BCA.jpg",
+      image: {BCA},
       title: "BCA-III",
       description: "Your logic defines you more than your syntax ever will.",
       sem5: "Semester 5",
