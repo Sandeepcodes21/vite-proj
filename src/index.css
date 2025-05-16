@@ -1,0 +1,244 @@
+/*** Spinner Start ***/
+#spinner {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .8s ease-out, visibility 0s linear .5s;
+  z-index: 99999;
+}
+
+#spinner.show {
+   transition: opacity .8s ease-out, visibility 0s linear .0s;
+   visibility: visible;
+   opacity: 1;
+}
+/*** Spinner End ***/
+
+div a{
+  font-size: 18px;
+  color:white;
+}
+
+/*** Common CSS Start ***/
+
+h1,
+h2,
+h3,
+.h1,
+.h2,
+.h3 {
+  font-weight: 200;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h4,
+h5,
+h6,
+.h4,
+.h5,
+.h6 {
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.display-1,
+.display-2,
+.display-3,
+.display-4,
+.display-5,
+.display-6 {
+  font-weight: 700;
+  font-family: 'Fredoka', sans-serif;
+}
+
+.display-4,
+.display-5,
+.display-6 {
+  font-weight: 600;
+}
+
+.wow,
+.animated {
+  animation-duration: 2s !important;
+}
+/*** Common CSS End ***/
+
+
+/*** Button Start ***/
+.btn {
+  font-weight: 600;
+  transition: .5s;
+}
+
+.btn-square {
+  width: 32px;
+  height: 32px;
+}
+
+.btn-sm-square {
+  width: 34px;
+  height: 34px;
+}
+
+.btn-md-square {
+  width: 44px;
+  height: 44px;
+}
+
+.btn-lg-square {
+  width: 56px;
+  height: 56px;
+}
+
+.btn-square,
+.btn-sm-square,
+.btn-md-square,
+.btn-lg-square {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: normal;
+}
+
+.btn.btn-primary {
+  border: 0;
+  color: var(--bs-white);
+}
+
+.btn.btn-primary:hover {
+  background: var(--bs-secondary);
+  color: var(--bs-primary);
+}
+
+.btn-border-radius {
+  border-radius: 25% 10%;
+}
+
+.img-border-radius {
+  border-radius: 50% 20% / 10% 40%;
+}
+
+.title-border-radius {
+  border-radius: 10% 30%;
+}
+/*** Button End ***/
+
+
+/*** Topbar Start ***/
+/* sbse upr ka address wala css hai */
+.topbar .top-info {
+  font-size: medium;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+}
+
+.topbar .top-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.topbar .top-link a {
+  margin-right: 10px;
+}
+
+.topbar .top-link a:hover {
+  background: var(--bs-secondary) !important;
+}
+
+.topbar .top-link a:hover i {
+  color: var(--bs-primary) !important;
+}
+/*** Topbar End ***/
+
+
+/* @media (min-width: 1200px) {
+  .navbar .nav-item .dropdown-menu {
+      display: block;
+      visibility: hidden;
+      top: 100%;
+      font-weight: 400;
+      font-family: 'Fredoka', sans-serif;
+      transform: rotateX(-75deg);
+      transform-origin: 0% 0%;
+      border: 0;
+      transition: .5s;
+      opacity: 0;
+  }
+} */
+
+/*** Hero Header ***/
+/* @keyframes pulse-border {
+  0% {
+      transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+      opacity: 1;
+  }
+
+  100% {
+      transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+      opacity: 0;
+  }
+} */
+
+/*** Programs Start ***/
+/* yaha pe program ka backgrond color change ho rha hai */
+.program {
+  background: linear-gradient(rgba(227, 133, 162, 0.468), rgba(255, 72, 128, 0.1));
+}
+
+.program .program-item .program-img .program-rate {
+  position: absolute;
+  width: 100px; 
+  top: -20px; 
+  left: 50%; 
+  margin-left: -50px; 
+  border-radius: 10% / 50%;
+}
+
+.program .program-item .program-text {
+  padding-top: 150px; 
+  margin-top: -125px;
+}
+
+.program .program-item .program-img img,
+.program .program-item .program-teacher img,
+.program .program-item:hover .program-text-inner a.h4 {
+  transition: 0.5s;
+}
+
+.program .program-item:hover .program-img img,
+.program .program-item:hover .program-teacher img {
+  transform: scale(1.2);
+}
+
+.program .program-item:hover .program-text-inner a.h4 {
+  color: var(--bs-primary) !important;
+}
+/*** Programs End ***/
+/* Yaha footer update ho gya hai */
+/*** Footer Start ***/
+.footer {
+  background: linear-gradient(rgba(254, 188, 188, 0.8), rgba(255, 255, 255, 1)), url(../img/background.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer .footer-galary-img img {
+  width: 100%;
+  border-style: dotted; 
+  border-color: var(--bs-primary);
+  transition: 0.5s;
+}
+
+.footer .footer-galary-img img:hover {
+  transform: scale(1.2);
+}
+
+.footer-item a.text-body:hover {
+  color: var(--bs-secondary) !important;
+}
+/*** Footer End ***/
