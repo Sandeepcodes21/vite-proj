@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Hero from "./Hero";
-import image from '../assets/img/BCA.jpg';
+import BCA from '../assets/img/BCA.jpg';
 const ProgramCard = ({ image, title, description, sem1, sem2, sem3, sem4, sem5, sem6 }) => {
   return (
     <div className="col-md-6 col-lg-6 col-xl-4 wow fadeIn" data-wow-delay="0.1s">
