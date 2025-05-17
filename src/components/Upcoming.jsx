@@ -1,12 +1,16 @@
 
 import React from "react";
 import { Link } from "react-router-dom";
+import BBAImage from "../assets/img/BBA1.jpg";
+import BCPImage from "../assets/img/BCP.webp";
+import BBAIBImage from "../assets/img/bba-ib.jpg";
+import BJMCImage from "../assets/img/BJMC.jpeg";
 // import Hero from "./Hero";
 const programs = [
-    { id: 1, name: "BBA", image: "src/assets/img/BBA1.jpg" },
-    { id: 2, name: "BCP", image: "src/assets/img/BCP.webp" },
-    { id: 3, name: "BBA(IB)", image: "src/assets/img/bba-ib.jpg" },
-    { id: 4, name: "BA(JMC)", image: "src/assets/img/BJMC.jpeg" },
+    { id: 1, name: "BBA", image: BBAImage },
+  { id: 2, name: "BCP", image: BCPImage },
+  { id: 3, name: "BBA(IB)", image: BBAIBImage },
+  { id: 4, name: "BA(JMC)", image: BJMCImage },
 ];
 
 
