@@ -1,17 +1,17 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import supriya1 from '../assets/img/supriya1.jpeg';
+import mukeshSir from '../assets/img/MukeshSir.jpg';
+import vandna from '../assets/img/vandna.jpeg';
+import prak from '../assets/img/prak.jpg';
+import rakesh from '../assets/img/rakesh.jpg';
+import fatherSeb from '../assets/img/FatherSeb1.jpeg';
+
+
 
 const Footer = () => {
-  const images = [
-    'src/assets/img/supriya1.jpeg',
-    'src/assets/img/MukeshSir.jpg', 
-    'src/assets/img/vandna.jpeg',
-    'src/assets/img/prak.jpg', 
-    'src/assets/img/rakesh.jpg', 
-    'src/assets/img/FatherSeb1.jpeg'
-  ];
-
+  const images = [supriya1, mukeshSir, vandna, prak, rakesh, fatherSeb];
   return (
     <div className="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.1s">
       <div className="container py-5">
